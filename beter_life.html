@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healther and better life</title>
+    <link rel="stylesheet" media="screen and (max-width: 1030px" href="css/phone.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="health care">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">SERVICES</a></li>
+           
+            <li class="item"><a href="#clients">OUR CLIENTS</a></li>
+            <li class="item"><a href="#">ABOUT US</a></li>
+            <li class="item"><a href="#contact">CONTACT</a></li>
+
+            <li class="item"><a href="tel:+1-9284610566">9284610566</a></li>
+            
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Custom Healthcare Websites that Attract Patients</h1>
+        <p>When you hire Healthcare Success to create your custom website, your team of experts will include a strategist, project leader, designer, programmer, writer(s) and a search engine optimization specialist. After you’ve checked out our recent websites, call us at 879-638-3784 to discover how we can help you, as well</p>
+        <button class="btn">Give feedback</button>
+    </section>
+
+    <section class="services-container">
+        <h1 class="h-primary center">Recent Medical Websites and Landing Pages</h1>
+        <div id="services">
+            <div class="box">
+                <img src="picture_1.jpg" alt="">
+                <h2 class="h-secondary center">Regular health checkups</h2>
+                <p>Health screenings play an essential role when it comes to old age. Screening should be done for a broad spectrum of diseases and health conditions such as cholesterol, blood pressure, diabetes, breast cancer, prostate cancer, heart disease, etc. Regular checkups can reduce the risk of severe illness and could improve health with proper medications and diet.</p>
+            </div>
+
+            <div class="box">
+                <img src="picture_3.jpg" alt="">
+                <h2 class="h-secondary center">Regular eyesight, hearing and dental checkups</h2>
+                <p>Older adults should have an eye test and get their prescription reviewed every year, as well as have their eyes screened for health issues such as glaucoma. Having the right pair of glasses can significantly diminish the prospect of falls. Hearing loss occurs commonly with aging, often due to exposure to loud noise. So hearing checkups should be done in a regular interval of time. Visiting the dentist once every six months could exclude the risk of cavities.</p>
+            </div>
+            <div class="box">
+                <img src="picture_2.jpg" alt="">
+                <h2 class="h-secondary center">Stay physically active</h2>
+                <p>Even with conventional medications and better health, some people at their old age doesn’t convey much. It is always required to be active, and being active encompasses both mental activeness and physical activeness. Morning/Evening walks and exercise classes can aid in physical activeness. Mental activities could be hastened by having talking sessions with other people, including family members, younger people and people of the same age.</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+        <div class="client-item">
+            <img src="twitter.jpg" alt="client">
+        </div>
+
+        <div class="client-item">
+            <img src="Facebook-logo.png" alt="client">
+        </div>
+
+        <div class="client-item">
+            <img src="footer-logo.png" alt="client">
+        </div>
+
+        <div class="client-item">
+            <img src="nature_yoga.webp" alt="client">
+        </div>
+    </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+                <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="fname" id="name" placeholder="enter Your Name"><span class="formerror"> <b> </b></span>
+            </div>
+            <div class="form-group">
+                <label for="name">Email:</label>
+                <input type="text" name="femail" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+                <label for="name">Phone Number:</label>
+                <input type="text" name="fphone number" id="phone number" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="form-group">
+                <label for="name">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            
+                
+                <button class="bTn">submit</button>
+            
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="center">
+            Copyright &copy; www.myonlinehealthcare.com. All rghts reserved!
+        </div>
+    </footer>
+
+
+
+    
+</body>
+<script>
+
+    function seterror(id, error){
+       
+    }
+
+    function validateform(){
+        
+
+        var name = document.forms['myForm']["fname"].value;
+      console.log(name);
+        return false;
+    }
+</script>
+</html>
